@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 12px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+h2 {
+    border-bottom: 2px solid #333;
+    padding-bottom: 10px;
+}
+
+.skills ul, .projects ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skills li, .projects li {
+    background-color: #fff;
+    margin: 10px 0;
+    padding: 15px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #007BFF;
+    color: #fff;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: space-around; /* Espaçamento entre os ícones */
+    gap: 1px; /* Espaço entre os ícones */
+}
+
+.social-icons a {
+    display: inline-block;
+}
+
+.social-icons img {
+    width: 35px; /* Tamanho dos ícones */
+    height: auto;
+}
